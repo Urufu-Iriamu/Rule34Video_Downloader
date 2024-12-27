@@ -1,20 +1,10 @@
-# R34 Video Downloader
+# Rule34Video Downloader
 
-The R34 Video Downloader is a Python application designed to automate the downloading of MP4 videos from the Rule34 platform. It ensures that no video is downloaded more than once by maintaining a record of downloaded videos in a SQLite database.
-
-## Features
-
-- **Video Downloading**: Automatically download MP4 videos from Rule34.
-- **Duplicate Avoidance**: Check against a local SQLite database to ensure videos are not downloaded multiple times.
-- **Simple and Robust**: Easy to set up and use with robust error handling.
-
-## Prerequisites
-
-Before you can run this script, make sure you have Python installed on your machine. The script has been tested with Python 3.8 and above. You will also need the `requests` library to handle HTTP requests and `sqlite3` which is included in the Python standard library.
+R34Video Downloader is a Python Script download the MP4 videos from the Rule34Video website.
 
 ## Installation
 
-To get started with the R34 Video Downloader, follow these steps:
+To get started with the R34Video Downloader, follow these steps:
 
 1. Clone the repository:
    ```bash
